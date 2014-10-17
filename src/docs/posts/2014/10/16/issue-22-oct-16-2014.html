@@ -19,9 +19,19 @@ data: true
 
 <h3>A little frontend with your js…</h3>
 
-
 {% for link in doc.get('data').links %}
 <p><a href="{{link.href}}">{{link.label}}</a><br>
 {{link.snippet}}</p>
-<div class="tags"><span class="source">toptal.com</span><span class="tag">javascript</span> <span class="tag">reactjs</span> <span class="tag">flux</span><span class="tag">backbonejs</span></div>
+<div class="tags">
+  <span class="source">{{link.source}}</span>
+  {% for tag in link.tags %}
+    <span class="tag">{{tag}}</span>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<h3>Code and stuff...</h3>
+{% for link in doc.get('data').code %}
+<p><a href="{{link.href}}">{{link.label}}</a><br>
+{{link.snippet}}</p>
 {% endfor %}
