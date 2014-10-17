@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block header %}
+	{% include "../modules/header.html" %}
+{% endblock %}
+
+{% block footer %}
+	{% include "../modules/footer.html" %}
+{% endblock %}
+
+{% block body %}
+<div class="container">
+<article class="post panel-body">
+	{% block content %}{% endblock %}
+</article>
+</div>
+{% endblock %}

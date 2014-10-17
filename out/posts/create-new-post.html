@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+
+  <!-- Site Properities -->
+  <title> | Tales from the Frontend Weekly</title>
+  <meta name="description" content="Email generator" />
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="/css/blog.css">
+
+    <script src="http://use.typekit.net/gis6vng.js"></script>
+    <script>
+        try { Typekit.load(); } catch (e) {}
+    </script>
+    <link rel='stylesheet' id='editor-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic%7CRoboto+Condensed%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+  
+
+
+</head>
+
+<body>
+
+<div id="page" class="hfeed site container">
+
+  <!-- Get sidebar color option (Appearance -> Customize -> Theme Options) -->
+    <header id="masthead" class="site-header dark" role="banner">
+    <!-- Tab navigation -->
+    <ul class="toggle-bar">
+        <!-- Main navigation -->
+        <li>
+          <a href="#tabs-1" class="current nav-toggle" data-tab="tab-1"><i class="fa fa-bars"></i></a>
+        </li>
+
+        <!-- Featured Posts navigation -->
+
+        <!-- Sidebar widgets navigation -->
+        <li>
+          <a href="#tab-3" class="folder-toggle" data-tab="tab-3"><i class="fa fa-folder"></i><i class="fa fa-folder-open"></i></a>
+        </li>
+    </ul>
+
+    <div id="tabs" class="toggle-tabs">
+      <div class="site-header-inside">
+        <!-- Logo, description and main navigation -->
+        <div id="tab-1" class="tab-content current animated fadeIn">
+          <div class="site-branding">
+            <!-- Get the site branding -->
+                          <h2 class="site-logo">
+                <a href="http://tales.colynb.com/"><img class="site-logo" src="http://tales.colynb.com/wp-content/uploads/2014/08/me1.png" alt="Tales from the Front End" /></a>
+              </h2>
+                          <h1 class="site-title"><a href="http://tales.colynb.com/" rel="home">Tales from the Front End</a></h1>
+              <h2 class="site-description">A free, curated weekly email containing the latest from the world of front end development.</h2>
+
+          </div>
+
+          <nav id="site-navigation" class="main-navigation" role="navigation">
+            <div class="menu-header-container"><ul id="menu-header" class="menu"><li id="menu-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83"><a href="https://twitter.com/frontendd">Twitter</a></li>
+<li id="menu-item-300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-300"><a href="https://www.facebook.com/TalesFromTheFrontEnd">Facebook</a></li>
+<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-61 current_page_item menu-item-98"><a href="http://tales.colynb.com/">Sign-up for our Weekly!</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-139"><a href="http://tales.colynb.com/category/issues/">Past Issues</a></li>
+</ul></div>         </nav><!-- #site-navigation -->
+        </div><!-- #tab-1 -->
+
+        <!-- Featured Posts template (template-featured-posts.php) -->
+
+
+        <!-- Sidebar widgets -->
+        <div id="tab-3" class="tab-content animated fadeIn">
+            <div id="secondary" class="widget-area" role="complementary">
+    <aside id="text-2" class="widget widget_text">      <div class="textwidget"></div>
+    </aside>  </div><!-- #secondary -->
+        </div><!-- #tab-3 -->
+      </div><!-- .site-header-inside -->
+    </div><!-- #tabs -->
+  </header><!-- #masthead -->
+
+  <div id="content" class="site-content animated-faster fadeIn">
+
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+
+
+
+<article id="post-61" class="post-61 page type-page status-publish hentry post">
+  <!-- Grab the featured image -->
+  
+	<h2 class="post-title">How To Create a New Post</h2>
+	<p class="post-meta">
+            By <a href="#" class="post-author">Colyn Brown</a> under
+
+            
+				<a class="post-category post-category-design" href="/tags/examples.html">examples</a>
+			
+				<a class="post-category post-category-design" href="/tags/post.html">post</a>
+			
+				<a class="post-category post-category-design" href="/tags/create.html">create</a>
+			
+				<a class="post-category post-category-design" href="/tags/go-static.html">go-static</a>
+			
+    </p>
+	
+
+	<h3 id="create-a-new-post">Create a New Post</h3>
+<p>Creating posts is really simple using Go-Static! There are a couple ways to do it: either let the built in Yeoman generator scaffold out a new post for you, or you can just create a new file yourself in your favorite editor.</p>
+<h4 id="the-yeoman-generator-way">The Yeoman generator way</h4>
+<p>If you&#39;re using Go-Static! for the first time, this is a good way to go. Just run the generator for creating posts and follow the prompts.</p>
+<pre><code>$ yo go-static:post</code></pre>
+<p>The generator creates a new file (currently the default uses Markdown).</p>
+<p>The file will contain &quot;front matter&quot; section at the top. This is a way to store all the meta details about the page. You can read more about Go-Static! front matter in the documentation.</p>
+<p>For instance, the front matter for the post you&#39;re now reading is:</p>
+<pre><code>layout: post
+title: How To Create a New Post
+snippet: Go-Static! makes it really simple to create new posts. 
+author: { name: Colyn Brown, email: colyn.brown@gmail.com }
+path: /posts/create-new-post.html
+type: post
+isPinned: true
+tags: [&#39;blog&#39;, &#39;post&#39;, &#39;create&#39;, &#39;go-static&#39;]
+created: &#39;2013-09-20T19:28:35-07:00&#39;</code></pre>
+<p>The generator creates this for you. Add your content below that section.</p>
+<h4 id="manually-creating-a-post">Manually creating a post</h4>
+<p>As you can see, Go-Static isn&#39;t magic. It simply uses Yeoman to automate the creation of posts, a step that can easily be done manually by you. Just create a new file with some meta details about the post, then run your build.</p>
+
+
+
+
+
+</article><!-- #post-## -->
+
+
+
+    </main><!-- #main -->
+  </div><!-- #primary -->
+
+
+  </div><!-- #content -->
+
+
+</div><!-- #page -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block header %}
+	{% include "../modules/header.html" %}
+{% endblock %}
+
+{% block footer %}
+	{% include "../modules/footer.html" %}
+{% endblock %}
+
+{% block body %}
+	<h1 class="entry-title">{{ doc.get('title') }}</h1>
+
+	{% block content %}{% endblock %}
+{% endblock %}
