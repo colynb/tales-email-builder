@@ -1,96 +1,130 @@
 {
-  "links": [{
-    "href": "http://jilles.me/express-routing-the-beginners-guide/",
-    "label": "Express Routing - The Beginners Guide",
-    "snippet": "A succinct guide to creating routes in Express 4.0",
-    "source": "jilles.me",
-    "tags": ["javascript", "expressjs"]
-  }, {
-    "href": "http://www.devcasts.io/p/writing-emberjs-components-with-ember-cli/",
-    "label": "Writing Ember.js Components with Ember CLI",
-    "snippet": "Learn Ember CLI basics and writing custom components. [Screencast]",
-    "source": "devcasts.io",
-    "tags": ["javascript", "emberjs"]
-  }, {
-    "href": "https://www.youtube.com/watch?v=xFFs9UgOAlE",
-    "label": "2005 Guest Lecture by Mark Zuckerberg [Video]",
-    "snippet": "On 7 December 2005, and unpolished Mark Zuckerberg joined CS50 for a guest lecture to discuss how Facebook works. You have to watch this if you're interested in app and db scaling.",
-    "source": "youtube.com",
-    "tags": ["scale", "mysql", "php"]
-  }, {
-    "href": "http://css-tricks.com/animating-svg-css/",
-    "label": "Animating SVG with CSS",
-    "snippet": "In this walk-thru, CHRIS COYIER explains some an alternative animation method for SVG.",
-    "source": "css-tricks.com",
-    "tags": ["css", "svg", "animation"]
-  }, {
-    "href": "http://queue.acm.org/detail.cfm?id=2677720",
-    "label": "JavaScript and the Netflix User Interface",
-    "snippet": "Netflix is steeped in a culture of A/B testing. Learn how they leverage JavaScript to manage the many dependencies required for running tests.",
-    "source": "queue.acm.org",
-    "tags": ["javascript", "a/b testing"]
-  }, {
-    "href": "http://tastenjesus.de/koajs-first-application-using-kamn-stack-part-12/",
-    "label": "koajs – Your first application using the KAMN stack – part 1/2",
-    "snippet": "Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. Allow Michel Albers shows you how to write a basic web application with a REST api with this new framework.",
-    "source": "tastenjesus.de",
-    "tags": ["nodejs", "koa"]
-  }, {
-    "href": "http://www.smashingmagazine.com/2014/10/16/css-only-solution-for-ui-tracking/",
-    "label": "CSS-Only Solution For UI Tracking",
-    "snippet": "KRASIMIR TSONEV describes a pretty nifty CSS-only approach for tracking UI interactions using Google Analytics.",
-    "source": "smashingmagazine.com",
-    "tags": ["analytics", "css"]
-  }, {
-    "href": "https://www.semitwist.com/mirror/node-js-is-cancer.html",
-    "label": "Node Punishes Developers Because it Disobeys the Unix Way",
-    "snippet": "A bonehead's 2011 unintentionally hilarious rant against nodejs and nodejs devs.",
-    "source": "semitwist.com",
-    "tags": ["nodejs"]
-  }, {
-    "href": "http://thejackalofjavascript.com/nwk-file-player/",
-    "label": "Node-Webkit File Player – A File player for your desktop",
-    "snippet": "Arvind Ravulavaru built a nice little file browser using Node-Webkit a runtime based on Chromium for writing native apps in HTML and Javascript.",
-    "source": "thejackalofjavascript.com",
-    "tags": ["nodejs"]
-  }, {
-    "href": "https://www.codementor.io/nodejs-tutorial/build-google-tv-raspberrypi-nodejs-socket-io#/.VD1RtXnIWQo.twitter",
-    "label": "Tutorial: Build your own Google TV Using RaspberryPi, NodeJS and Socket.io",
-    "snippet": "Be a hardware hacker! A fun proof of concept for building your own Google TV complete with remote app!",
-    "source": "codementor.io",
-    "tags": ["raspberrypi", "nodejs", "socketio"]
-  }, {
-    "href": "https://medium.com/@jeffwhelpley/is-angularjs-fast-enough-98dcf96406c8",
-    "label": "Is AngularJS Fast Enough?",
-    "snippet": "For many React devs, there is no debate. If you care about performance, you use React instead of Angular. However, as JEFF WHELPLEY explains, it's not so simple, there are ways to improve Angular performance as well as percieved performance.",
-    "source": "medium.com",
-    "tags": ["javascript", "angularjs", "reactjs"]
-  }, {
-    "href": "http://www.sitepoint.com/preparing-ecmascript-6-set-weakset/",
-    "label": "Preparing for ECMAScript 6: Set and WeakSet",
-    "snippet": "You better start getting the ES6 train. In this post, Aurelio De Rosa walks through a couple new data types in ES6 that can be quite useful.",
-    "source": "sitepoint.com",
-    "tags": ["javascript", "es6"]
-  }],
-  "code": [{
-    "href": "https://github.com/elierotenberg/react-rails",
-    "label": "elierotenberg/react-rails",
-    "snippet": "Real world apps with React."
-  }, {
-    "href": "http://formatjs.io/",
-    "label": "Format.js",
-    "snippet": "Internationalize your web apps on the client & server."
-  }, {
-    "href": "http://github.hubspot.com/offline/docs/welcome/",
-    "label": "Offline.js",
-    "snippet": "Handle your users losing their internet connection like a pro."
-  }, {
-    "href": "https://github.com/couchbaselabs/forestdb",
-    "label": "couchbaselabs/forestdb",
-    "snippet": "ForestDB is a fast key-value storage engine developed by Couchbase"
-  }, {
-    "href": "https://github.com/twbs/bootlint",
-    "label": "twbs/bootlint",
-    "snippet": "HTML linter for Bootstrap projects"
-  }]
+  "sections" : {
+    "learning" : {
+      "headline" : "Skill building...",
+      "links": [{
+        "href": "https://leanpub.com/understandinges6/read",
+        "label": "Understanding ECMAScript 6",
+        "snippet": "NICHOLAS C. ZAKAS' complete guide for transitioning between ECMAScript 5 and 6. Not specific to any JavaScript environment, so it is equally useful to web developers as it is Node.js developers.",
+        "source": "leanpub.com",
+        "tags": ["javascript", "es6"]
+      }, {
+        "href": "http://jilles.me/express-routing-the-beginners-guide/",
+        "label": "Express Routing - The Beginners Guide",
+        "snippet": "A succinct guide to creating routes in Express 4.0",
+        "source": "jilles.me",
+        "tags": ["javascript", "expressjs"]
+      }, {
+        "href": "https://www.youtube.com/watch?v=xFFs9UgOAlE",
+        "label": "2005 Guest Lecture by Mark Zuckerberg [Video]",
+        "snippet": "On 7 December 2005, an unpolished Mark Zuckerberg guest lectured a CS class to discuss how Facebook works. You have to watch this if you're interested in app and db scaling.",
+        "source": "youtube.com",
+        "tags": ["scale", "mysql", "php"]
+      }, {
+        "href": "http://css-tricks.com/animating-svg-css/",
+        "label": "Animating SVG with CSS",
+        "snippet": "Always the maverick, in this walk-thru, CHRIS COYIER explains an alternative animation method for SVG.",
+        "source": "css-tricks.com",
+        "tags": ["css", "svg", "animation"]
+      }, {
+        "href": "https://www.codementor.io/nodejs-tutorial/build-google-tv-raspberrypi-nodejs-socket-io#/.VD1RtXnIWQo.twitter",
+        "label": "Tutorial: Build your own Google TV Using RaspberryPi, NodeJS and Socket.io",
+        "snippet": "Be a hardware hacker! A fun proof of concept for building your own Google TV complete with remote app!",
+        "source": "codementor.io",
+        "tags": ["raspberrypi", "nodejs", "socketio"]
+      }, {
+        "href": "http://code.tutsplus.com/tutorials/an-introduction-to-the-html5-history-api--cms-22160",
+        "label": "An Introduction To The HTML5 History API",
+        "snippet": "With the HTML5 History API, you can manipulate the browsers history and change urls without refreshing the page. Learn how this API came to be, then build a single-page app to demonstrate it.",
+        "source": "tutsplus.com",
+        "tags": ["html5", "javascript"]
+      }, {
+        "href": "http://www.innoarchitech.com/scalable-maintainable-javascript-coupling/",
+        "label": "How to Write Highly Scalable and Maintainable JavaScript: Coupling",
+        "snippet": "ALEX CASTROUNIS guides us through his 4th and final chapter in writing scalable javascript apps, with approaches to reduce coupling between modules, keeping them from getting too cozy.",
+        "source": "innoarchitech.com",
+        "tags": ["javascript"]
+      }, {
+        "href": "http://www.sitepoint.com/preparing-ecmascript-6-set-weakset/",
+        "label": "Preparing for ECMAScript 6: Set and WeakSet",
+        "snippet": "You better start getting on the ES6 train. In this post, AURELIO DE ROSA walks through a couple new data types in ES6 that can be quite useful.",
+        "source": "sitepoint.com",
+        "tags": ["javascript", "es6"]
+      }, {
+        "href": "http://tastenjesus.de/koajs-first-application-using-kamn-stack-part-12/",
+        "label": "koajs – Your first application using the KAMN stack – part 1/2",
+        "snippet": "Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. MICHEL ALBERS shows you how to write a basic web application with a REST api with this new framework.",
+        "source": "tastenjesus.de",
+        "tags": ["nodejs", "koa"]
+      }, {
+        "href": "http://www.smashingmagazine.com/2014/10/16/css-only-solution-for-ui-tracking/",
+        "label": "CSS-Only Solution For UI Tracking",
+        "snippet": "KRASIMIR TSONEV describes a pretty nifty CSS-only approach for tracking UI interactions using Google Analytics.",
+        "source": "smashingmagazine.com",
+        "tags": ["analytics", "css"]
+      }, {
+        "href": "https://www.semitwist.com/mirror/node-js-is-cancer.html",
+        "label": "Node Punishes Developers Because it Disobeys the Unix Way",
+        "snippet": "A bonehead's 2011 unintentionally hilarious rant against nodejs and nodejs devs.",
+        "source": "semitwist.com",
+        "tags": ["nodejs"]
+      }, {
+        "href": "http://thejackalofjavascript.com/nwk-file-player/",
+        "label": "Node-Webkit File Player – A File player for your desktop",
+        "snippet": "Arvind Ravulavaru built a nice little file browser using Node-Webkit a runtime based on Chromium for writing native apps in HTML and Javascript.",
+        "source": "thejackalofjavascript.com",
+        "tags": ["nodejs"]
+      }, {
+        "href": "https://medium.com/@jeffwhelpley/is-angularjs-fast-enough-98dcf96406c8",
+        "label": "Is AngularJS Fast Enough?",
+        "snippet": "For many React devs, there is no debate. If you care about performance, you use React instead of Angular. However, as JEFF WHELPLEY explains, it's not so simple and there are ways to improve Angular's percieved performance.",
+        "source": "medium.com",
+        "tags": ["javascript", "angularjs", "reactjs"]
+      }]
+    },
+    "code" : {
+      "headline" : "Awesome work from your fellow devs...",
+      "links": [{
+        "href": "https://github.com/elierotenberg/react-rails",
+        "label": "elierotenberg/react-rails",
+        "snippet": "Real world apps with React."
+      }, {
+        "href": "http://formatjs.io/",
+        "label": "Format.js",
+        "snippet": "Internationalize your web apps on the client & server."
+      }, {
+        "href": "http://github.hubspot.com/offline/docs/welcome/",
+        "label": "Offline.js",
+        "snippet": "Handle your users losing their internet connection like a pro."
+      }, {
+        "href": "https://github.com/couchbaselabs/forestdb",
+        "label": "couchbaselabs/forestdb",
+        "snippet": "ForestDB is a fast key-value storage engine developed by Couchbase"
+      }, {
+        "href": "https://github.com/twbs/bootlint",
+        "label": "twbs/bootlint",
+        "snippet": "HTML linter for Bootstrap projects"
+      }, {
+        "href": "https://github.com/w33ble/emoticon-data",
+        "label": "w33ble/emoticon-data",
+        "snippet": "Collection of japanese emoticons in JSON format, created with and directly queryable using lowdb (or lodash)"
+      }]
+    },
+    "twitter" : {
+      "headline" : "Friday follow…",
+      "links": [{
+        "user": "slicknet",
+        "description": "Front-end guy at @BoxHQ. Author. Speaker. Philosopher. Boston ex-pat. ",
+        "name": "Nicholas C. Zakas"
+      }, {
+        "user": "DerekHaddad",
+        "description": "Hacktivist, Maker & Designer. MIT Media Lab Researcher",
+        "name": "Donald-Derek Haddad"
+      }, {
+        "user": "w33ble",
+        "description": "Javascript and Node.js developer and fan. Writing code for the web and working on Kibana.",
+        "name": "Joe Fleming"
+      }]
+    }
+  }
 }
