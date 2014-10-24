@@ -1,130 +1,114 @@
 {
-  "sections" : {
-    "learning" : {
-      "headline" : "Skill building...",
-      "links": [{
-        "href": "https://leanpub.com/understandinges6/read",
-        "label": "Understanding ECMAScript 6",
-        "snippet": "NICHOLAS C. ZAKAS' complete guide for transitioning between ECMAScript 5 and 6. Not specific to any JavaScript environment, so it is equally useful to web developers as it is Node.js developers.",
-        "source": "leanpub.com",
-        "tags": ["javascript", "es6"]
-      }, {
-        "href": "http://jilles.me/express-routing-the-beginners-guide/",
-        "label": "Express Routing - The Beginners Guide",
-        "snippet": "A succinct guide to creating routes in Express 4.0",
-        "source": "jilles.me",
-        "tags": ["javascript", "expressjs"]
-      }, {
-        "href": "https://www.youtube.com/watch?v=xFFs9UgOAlE",
-        "label": "2005 Guest Lecture by Mark Zuckerberg [Video]",
-        "snippet": "On 7 December 2005, an unpolished Mark Zuckerberg guest lectured a CS class to discuss how Facebook works. You have to watch this if you're interested in app and db scaling.",
-        "source": "youtube.com",
-        "tags": ["scale", "mysql", "php"]
-      }, {
-        "href": "http://css-tricks.com/animating-svg-css/",
-        "label": "Animating SVG with CSS",
-        "snippet": "Always the maverick, in this walk-thru, CHRIS COYIER explains an alternative animation method for SVG.",
-        "source": "css-tricks.com",
-        "tags": ["css", "svg", "animation"]
-      }, {
-        "href": "https://www.codementor.io/nodejs-tutorial/build-google-tv-raspberrypi-nodejs-socket-io#/.VD1RtXnIWQo.twitter",
-        "label": "Tutorial: Build your own Google TV Using RaspberryPi, NodeJS and Socket.io",
-        "snippet": "Be a hardware hacker! A fun proof of concept for building your own Google TV complete with remote app!",
-        "source": "codementor.io",
-        "tags": ["raspberrypi", "nodejs", "socketio"]
-      }, {
-        "href": "http://code.tutsplus.com/tutorials/an-introduction-to-the-html5-history-api--cms-22160",
-        "label": "An Introduction To The HTML5 History API",
-        "snippet": "With the HTML5 History API, you can manipulate the browsers history and change urls without refreshing the page. Learn how this API came to be, then build a single-page app to demonstrate it.",
-        "source": "tutsplus.com",
-        "tags": ["html5", "javascript"]
-      }, {
-        "href": "http://www.innoarchitech.com/scalable-maintainable-javascript-coupling/",
-        "label": "How to Write Highly Scalable and Maintainable JavaScript: Coupling",
-        "snippet": "ALEX CASTROUNIS guides us through his 4th and final chapter in writing scalable javascript apps, with approaches to reduce coupling between modules, keeping them from getting too cozy.",
-        "source": "innoarchitech.com",
-        "tags": ["javascript"]
-      }, {
-        "href": "http://www.sitepoint.com/preparing-ecmascript-6-set-weakset/",
-        "label": "Preparing for ECMAScript 6: Set and WeakSet",
-        "snippet": "You better start getting on the ES6 train. In this post, AURELIO DE ROSA walks through a couple new data types in ES6 that can be quite useful.",
-        "source": "sitepoint.com",
-        "tags": ["javascript", "es6"]
-      }, {
-        "href": "http://tastenjesus.de/koajs-first-application-using-kamn-stack-part-12/",
-        "label": "koajs – Your first application using the KAMN stack – part 1/2",
-        "snippet": "Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. MICHEL ALBERS shows you how to write a basic web application with a REST api with this new framework.",
-        "source": "tastenjesus.de",
-        "tags": ["nodejs", "koa"]
-      }, {
-        "href": "http://www.smashingmagazine.com/2014/10/16/css-only-solution-for-ui-tracking/",
-        "label": "CSS-Only Solution For UI Tracking",
-        "snippet": "KRASIMIR TSONEV describes a pretty nifty CSS-only approach for tracking UI interactions using Google Analytics.",
-        "source": "smashingmagazine.com",
-        "tags": ["analytics", "css"]
-      }, {
-        "href": "https://www.semitwist.com/mirror/node-js-is-cancer.html",
-        "label": "Node Punishes Developers Because it Disobeys the Unix Way",
-        "snippet": "A bonehead's 2011 unintentionally hilarious rant against nodejs and nodejs devs.",
-        "source": "semitwist.com",
-        "tags": ["nodejs"]
-      }, {
-        "href": "http://thejackalofjavascript.com/nwk-file-player/",
-        "label": "Node-Webkit File Player – A File player for your desktop",
-        "snippet": "Arvind Ravulavaru built a nice little file browser using Node-Webkit a runtime based on Chromium for writing native apps in HTML and Javascript.",
-        "source": "thejackalofjavascript.com",
-        "tags": ["nodejs"]
-      }, {
-        "href": "https://medium.com/@jeffwhelpley/is-angularjs-fast-enough-98dcf96406c8",
-        "label": "Is AngularJS Fast Enough?",
-        "snippet": "For many React devs, there is no debate. If you care about performance, you use React instead of Angular. However, as JEFF WHELPLEY explains, it's not so simple and there are ways to improve Angular's percieved performance.",
-        "source": "medium.com",
-        "tags": ["javascript", "angularjs", "reactjs"]
-      }]
-    },
-    "code" : {
-      "headline" : "Awesome work from your fellow devs...",
-      "links": [{
-        "href": "https://github.com/elierotenberg/react-rails",
-        "label": "elierotenberg/react-rails",
-        "snippet": "Real world apps with React."
-      }, {
-        "href": "http://formatjs.io/",
-        "label": "Format.js",
-        "snippet": "Internationalize your web apps on the client & server."
-      }, {
-        "href": "http://github.hubspot.com/offline/docs/welcome/",
-        "label": "Offline.js",
-        "snippet": "Handle your users losing their internet connection like a pro."
-      }, {
-        "href": "https://github.com/couchbaselabs/forestdb",
-        "label": "couchbaselabs/forestdb",
-        "snippet": "ForestDB is a fast key-value storage engine developed by Couchbase"
-      }, {
-        "href": "https://github.com/twbs/bootlint",
-        "label": "twbs/bootlint",
-        "snippet": "HTML linter for Bootstrap projects"
-      }, {
-        "href": "https://github.com/w33ble/emoticon-data",
-        "label": "w33ble/emoticon-data",
-        "snippet": "Collection of japanese emoticons in JSON format, created with and directly queryable using lowdb (or lodash)"
-      }]
-    },
-    "twitter" : {
-      "headline" : "Friday follow…",
-      "links": [{
-        "user": "slicknet",
-        "description": "Front-end guy at @BoxHQ. Author. Speaker. Philosopher. Boston ex-pat. ",
-        "name": "Nicholas C. Zakas"
-      }, {
-        "user": "DerekHaddad",
-        "description": "Hacktivist, Maker & Designer. MIT Media Lab Researcher",
-        "name": "Donald-Derek Haddad"
-      }, {
-        "user": "w33ble",
-        "description": "Javascript and Node.js developer and fan. Writing code for the web and working on Kibana.",
-        "name": "Joe Fleming"
-      }]
+    "sections": {
+        "learning": {
+            "headline": "Skill building...",
+            "links": [{
+                "href": "http://scotch.io/tutorials/javascript/build-a-real-time-twitter-stream-with-node-and-react-js",
+                "label": "Build A Real-Time Twitter Stream with Node and React.js",
+                "snippet": "In this tut, learn to share React components between client and server and build a real-time Twitter stream.",
+                "source": "scotch.io",
+                "tags": ["javascript"]
+            }, {
+                "href": "https://github.com/getify/You-Dont-Know-JS",
+                "label": "You Don't Know JS",
+                "snippet": "When it comes to the core mechanisms of javascript, you don't know JS... get knee-deep in it with KYLE SIMPSON (@getify)",
+                "source": "github.com",
+                "tags": ["javascript"]
+            }, {
+                "href": "http://mashable.com/2014/10/23/twitter-fabric-developers/",
+                "label": "What Twitter Fabric Means for Developers",
+                "snippet": "Twitter unveils Fabric, a new developer toolkit for building mobile apps.",
+                "source": "mashable.com",
+                "tags": ["mobile"]
+            }, {
+                "href": "http://www.sitepoint.com/reading-images-data-using-canvas-javascript/",
+                "label": "Reading Images and Data Using Canvas and JavaScript",
+                "snippet": "A journey through the basics of how to read in image data dynamically using JavaScript.",
+                "source": "sitepoint.com",
+                "tags": ["javascript"]
+            }, {
+                "href": "http://square.github.io/intro-to-d3/",
+                "label": "Intro to D3.js",
+                "snippet": "Introduction to D3.js, a javascript library for creating data visualizations.",
+                "source": "square.github.io",
+                "tags": ["javascript"]
+            }, {
+                "href": "https://medium.com/unhandled-exception/sailsjs-and-node-webkit-4ccb8f810add",
+                "label": "Getting along with SailsJS and node-webkit",
+                "snippet": "This is a quick example to show you how to use SailsJS and node-webkit together.",
+                "source": "medium.com",
+                "tags": ["javascript", "nodejs"]
+            }, {
+                "href": "http://alistapart.com/article/axiomatic-css-and-lobotomized-owls",
+                "label": "Axiomatic CSS and Lobotomized Owls",
+                "snippet": "HEYDON PICKERING introduces a new three-character CSS selector called the \"lobotomized owl selector\". He demonstrates how the selector can reduce bloat, speed up development, and help automate the styling of arbitrary, dynamic content.",
+                "source": "alistapart.com",
+                "tags": ["css"]
+            }, {
+                "href": "http://strongloop.com/strongblog/node-js-performance-scaling-proxies-clusters/",
+                "label": "Node.js Performance Tip of the Week: Scaling with Proxies and Clusters",
+                "snippet": "STRONGLOOP explains how to use HTTP proxies and clusters to scale your node apps.",
+                "source": "strongloop.com",
+                "tags": ["nodejs"]
+            }, {
+                "href": "https://www.youtube.com/watch?v=PSGEjv3Tqo0",
+                "label": "Douglas Crockford - The Better Parts",
+                "snippet": "DOUGLAS CROCKFORD speaking on the new ES6 good parts as well as some of the potentially bad.",
+                "source": "youtube.com",
+                "tags": ["javascript"]
+            }, {
+                "href": "http://engineering.zillow.com/understanding-css-specificity/",
+                "label": "Understanding CSS Specificity",
+                "snippet": "Think you understand how CSS specificity works?",
+                "source": "engineering.zillow.com",
+                "tags": ["css"]
+            }, {
+                "href": "https://blog.liip.ch/archive/2014/10/09/why-i-don-t-use-the-javascript-new-keyword.html",
+                "label": "Why I don't use the javascript \"new\" keyword",
+                "snippet": "TL;DR: In Javascript, use Object.create instead of using the \"new\" keyword.",
+                "source": "blog.liip.ch",
+                "tags": ["javascript"]
+            }]
+        },
+        "code": {
+            "headline": "People with jobs managed to build this stuff...",
+            "links": [{
+                "href": "https://github.com/sindresorhus/pageres",
+                "label": "sindresorhus/pageres",
+                "snippet": "Sindre's library for generating responsive website screenshots."
+            }, {
+                "href": "https://github.com/RReverser/github-editorconfig",
+                "label": "RReverser/github-editorconfig",
+                "snippet": "Browser extension that provides EditorConfig support for GitHub"
+            }, {
+                "href": "https://github.com/gaearon/react-dnd",
+                "label": "gaearon/react-dnd",
+                "snippet": "Flexible HTML5 drag-and-drop mixin for React with full DOM control."
+            }, {
+                "href": "https://github.com/lastpass/lastpass-cli",
+                "label": "lastpass/lastpass-cli",
+                "snippet": "LastPass command line interface tool."
+            }, {
+                "href": "http://exosjs.com/",
+                "label": "Exoskeleton",
+                "snippet": "Exoskeleton is a faster and leaner Backbone for your HTML5 apps."
+            }]
+        },
+        "twitter": {
+            "headline": "Show these developers some Twitter follow love...",
+            "links": [{
+                "user": "heydonworks",
+                "description": "Interface designer, illustrator and writer from the UK.",
+                "name": "Heydon Pickering"
+            }, {
+                "user": "getify",
+                "description": "All things JavaScript. Open Web Evangelist. Subscribes to Tales from the Frontend.",
+                "name": "Kyle Simpson"
+            }, {
+                "user": "ken_wheeler",
+                "description": "Startlingly Handsome Front End Engineer",
+                "name": "Ken Wheeler"
+            }]
+        }
     }
-  }
 }
