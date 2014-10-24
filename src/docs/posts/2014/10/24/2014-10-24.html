@@ -1,0 +1,46 @@
+---
+layout: post
+title: 'Issue #23 - Oct 24, 2014'
+snippet: 'Greetings friends! Lot''s of stuff this week!'
+tags: ["issues"]
+path: /posts/2014/10/24/2014-10-24.html
+type: post
+created: '2014-10-24T17:11:55-07:00'
+author:
+  name: 'Colyn Brown'
+  email: colyn.brown@gmail.com
+data: true
+---
+
+<div class="intro clear">
+  <img class="alignright  wp-image-109" src="http://tales.colynb.com/wp-content/uploads/2014/05/twitter.png" alt="" width="180" height="180">
+  Greetings! <strong>Welcome to issue #22 of Tales from the Frontend</strong>. I sorted through quite  bit this week, it was tough to keep it at a reasonable size. I've included a couple items to help pave the way for ES6 Harmony the upcoming sixth major release of the ECMAScript language specification. Enjoy your weekend!
+</div>
+
+<h3>{{ doc.get('data').sections.learning.headline }}</h3>
+
+{% for link in doc.get('data').sections.learning.links %}
+<p><a href="{{link.href}}">{{link.label}}</a><br>
+{{link.snippet}}</p>
+<div class="tags">
+  <span class="source">{{link.source}}</span>
+  {% for tag in link.tags %}
+    <span class="tag">{{tag}}</span>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<h3>{{ doc.get('data').sections.code.headline }}</h3>
+
+{% for link in doc.get('data').sections.code.links %}
+<p><a href="{{link.href}}">{{link.label}}</a><br>
+{{link.snippet}}</p>
+{% endfor %}
+
+<h3>{{ doc.get('data').sections.twitter.headline }}</h3>
+
+{% for link in doc.get('data').sections.twitter.links %}
+<p><strong>{{link.name}}</strong><br>
+{{link.description}}<br>
+<a href="https://twitter.com/{{link.user}}">@{{link.user}}</a></p>
+{% endfor %}
